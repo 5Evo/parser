@@ -19,3 +19,5 @@ def echo_message(message):
     bot.reply_to(message, message.text)
 
 bot.infinity_polling()
+
+# тут просто тестирование бота было
