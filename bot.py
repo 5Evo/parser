@@ -39,8 +39,8 @@ def start_parser(message):
         s5 = item_news['Link']
         bot_news = f'{s1}. \n {s2}\n {s3}\n {s4}\n {s5}'
         bot.send_message(message.chat.id, bot_news)
-        print(item_news)
-        print(item_news['Number'], item_news['Heading'], item_news['Text'], item_news['Link'])
+        #print(item_news)
+        #print(item_news['Number'], item_news['Heading'], item_news['Text'], item_news['Link'])
 
 
 # Handle all other messages with content_type 'text' (content_types defaults to ['text'])
